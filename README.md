@@ -1,7 +1,13 @@
 # atlys_assignment
 Solution of first assignment given by  Atlys
 
-NOTE: make sure redis is installed and running.
+### install and run redis(ubuntu/linux)
+
+```commandline
+sudo apt update
+sudo apt install -y redis-server 
+sudo systemctl enable --now redis
+```
 
 `pip install -r requirements.txt`
 
